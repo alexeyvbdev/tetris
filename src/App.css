@@ -1,0 +1,107 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+ol,
+ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: #fff;
+  float: left;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 20px;
+}
+
+.square.win {
+  background: #0f0;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.active {
+  font-weight: bold;
+}
+.game-board {
+  width: 200px;
+  border: 1px solid #999;
+  float:left;
+}
+.score {
+	float:left;
+	width:100px;
+}
+.game-board-container {
+  width: 202px;
+}
+.game-status {
+	float:right;
+	margin:0;
+	padding:0;
+	color:#f00;
+}
+
+.i-style {
+  color: #00FFFF;
+  background:  #00FFFF;
+}
+.j-style {
+  color: #0000FF;
+  background: #0000FF;
+}
+.l-style {
+  color: #FFAA00;
+  background:  #FFAA00;
+}
+.o-style {
+  color: #FFFF00;
+  background: #FFFF00;
+}
+.s-style {
+  color: #00FF00;
+  background: #00FF00;
+}
+.t-style {
+  color: #9900FF;
+  background: #9900FF;
+}
+.z-style {
+  color: #FF0000;
+  background: #FF0000;
+}
+.filled-block {
+  background: gray;
+  width: 18px;
+  height:18px;
+  border: 1px solid #000;
+}
